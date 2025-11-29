@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter name">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="" id="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <!-- radio button -->
+         <div>
+            <p>Select your favorite color:</p>
+
+    <label>
+        <input type="radio" name="color" value="red">
+        Red
+    </label><br>
+
+    <label>
+        <input type="radio" name="color" value="blue">
+        Blue
+    </label><br>
+
+    <label>
+        <input type="radio" name="color" value="green">
+        Green
+    </label>
+         </div>
+
+         <!-- check box -->
+          <div>
+            <p>Select your hobbies:</p>
+
+          <label>
+            <input type="checkbox" name="hobby" value="reading">Reading
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="hobby" value="sports">Sports
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="hobby" value="music">Music
+          </label>
+          </div>
+    </form>
+</body>
+</html>
