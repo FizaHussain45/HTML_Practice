@@ -1,0 +1,36 @@
+#header img{
+             height: 300px;
+             width: 180px;
+}
+#header table{
+               border: 1px solid black;
+               padding: 5px;
+               margin: 5px;
+               line-height: 20px;
+               height: 100px;
+               width: 550px;
+               word-spacing: 5px;
+}
+#Projects img{
+    height: 300px;
+    width: 180px;
+}
+#Experiences table{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    line-height: 20px;
+    height: 100px;
+    width: 550px;
+    word-spacing: 5px;
+}
+#contact img{
+    height: 30px;
+    width: 30px;
+}
+form{
+    border: 1px solid black; 
+    padding: 10px ;
+    margin: 10px;
+    word-spacing: 5px;
+}
